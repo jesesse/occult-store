@@ -1,0 +1,55 @@
+.header {
+    background: linear-gradient(0.25turn, #3f87a63d, #3430308a, #f69c3c4b);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(39, 38, 37);
+    height: 150px;
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+    overflow: hidden;
+}
+
+.logo-header {
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+}
+
+.logo-img {
+    position: absolute;
+    top: -130%;
+    width: 100%;
+    opacity: 10%;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+    box-shadow: 0 0 10px 2px rgb(18, 18, 18);
+}
+
+.nav-links--container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.shopping-cart--container{
+
+}
